@@ -1,0 +1,15 @@
+.img-circle {
+   filter: grayscale(100%);
+   -webkit-filter: grayscale(100%);
+   -moz-filter: grayscale(100%);
+   -ms-filter: grayscale(100%);
+   -o-filter: grayscale(100%);
+}
+
+.listing-box:hover .img-circle {
+   filter: none;
+   -webkit-filter: grayscale(0%);
+   -moz-filter: grayscale(0%);
+   -ms-filter: grayscale(0%);
+   -o-filter: grayscale(0%);
+}
